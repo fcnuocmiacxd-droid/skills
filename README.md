@@ -256,3 +256,10 @@ General workflow tools, not code-specific.
 
 - **[grilling](./skills/productivity/grilling/SKILL.md)**: Interview the user relentlessly about a plan, decision, or idea until every branch of the design tree is resolved. The reusable interview primitive behind `grill-me`, `grill-with-docs`, `triage`, `wayfinder` and `improve-codebase-architecture`.
 - **[writing-for-agents](./skills/productivity/writing-for-agents/SKILL.md)**: Writing documents for agents: skills, AGENTS.md/CLAUDE.md, and any doc an agent reaches by a pointer.
+
+
+## Optional external integration: Archify (interactive diagrams)
+
+[Archify](https://github.com/tt-a1i/archify) is a **separate third-party skill** for drawing validated, interactive HTML diagrams from plans or inspected codebases. It complements `codebase-design` and `domain-modeling`; it is **not bundled with this repository**, and merely cloning this repository does not install Archify.
+
+See [Archify + Codex installation and usage (Windows)](./docs/external-skills/archify.md) for discovery, an opt-in installer, verification, and safe usage. The original engineering skills remain unchanged.
